@@ -1,38 +1,27 @@
-# sv
+# ionic-modal-footer-test
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Test ion-footer within ion-modal
 
-## Creating a project
+## steps to reproduce
 
-If you're seeing this, you've probably already done this step. Congrats!
+### 1. run test app
 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Clone or download this repo to your local machine, then navigate to the project directory in your terminal of choice.
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
-## Building
+### 2. in test app click Open button
 
-To create a production version of your app:
+### 3. observe modal
 
-```bash
-npm run build
-```
+## Expected
 
-You can preview the production build with `npm run preview`.
+### modal should display with properly-rendered header & footer
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Actual
+
+### I'm seeing the expected result
+
+
